@@ -1,7 +1,51 @@
-<!DOCTYPE html>
 <html>
-<head>
-<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <script type="text/javascript">
+            function leftArrowPressed() {
+            var element = document.getElementById("image");
+            element.style.left = parseInt(element.style.left) - 10 + 'px';
+            }
+  
+            function rightArrowPressed() {
+            var element = document.getElementById("image");
+            element.style.left = parseInt(element.style.left) + 10 + 'px';
+            }
+  
+            function upArrowPressed() {
+            var element = document.getElementById("image");
+            element.style.top = parseInt(element.style.top) - 10 + 'px';
+            }
+  
+            function downArrowPressed() {
+            var element document.getElementById("image");
+            element.style.top = parseInt(element.style.top) + 10 + 'px';
+            }
+  
+            function moveSelection(evt) {
+                switch (evt.keyCode) {
+                    case 37:
+                    leftArrowPressed();
+                    break;
+                    case 39:
+                    rightArrowPressed();
+                    break;
+                    case 38:
+                    upArrowPressed();
+                    break;
+                    case 40:
+                    downArrowPressed();
+                    break;
+                    }
+                };
+        function docReady() 
+        {
+          
+          window.addEventListener('keydown', moveSelection);
+        }
+  </script>
+
 <style>
 h1 {
 	color: white;
@@ -32,16 +76,17 @@ div.infoBox {
 
 div.boxTitle {
 	position: absolute;
-    width: 85px;
+    width: 95px;
     height: 85px;
     color: #FFFFFF;
     text-align: center;
-    border: 1px solid #342212
     }
 	
 </style>
 </head>
-<body style="background-color:#000000">
+<body onload="docReady()" onkeydown="" onkeyup="" bgcolor='black'>
+  
+<img id="image" src="http://placekitten.com/69/69" style="position:absolute;left:0; top:0;" height="15" width="15">
 
 <h1>Welcome</h1>
 
@@ -55,9 +100,8 @@ div.boxTitle {
     <div class="boxTitle" style="bottom:15%;right:15%;">Activities
     <div class="infoBox"></div></div>
 
-    <div class="update"><strong>Questions? Comments? <a href="mailto:codykuchinski1@gmail.com">Email Me</a><br>
+    <div class="update"><strong>Questions? Comments? </strong><a href="mailto:codykuchinski1@gmail.com">Email Me</a><br>
     Last Updated 9/26/2017
     </div>
 </body>
 </html>
-
