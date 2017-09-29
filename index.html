@@ -1,28 +1,49 @@
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Test Move Object</title>
+    
     <script type="text/javascript">
+    
+            function imagePosition(x, y, w, h, i, dx, dy) {
+              this.x = x;
+              this.y = y;
+              this.width = w;
+              this.height = h;
+              this.image = i;
+              this.dropzone = new DropZone(dx, dy, dw, dh);
+            }
+            
+            function DropZone(x, y, w, h) {
+              this.x = x;
+              this.y =y;
+              this.width = w;
+              this.height = h;
+            }
+    
+            document.body.style.cursor = 'none';
+
             function leftArrowPressed() {
             var element = document.getElementById("image");
-            element.style.left = parseInt(element.style.left) - 10 + 'px';
+            element.style.left = parseInt(element.style.left) - 1 + '%';
             }
-  
+
             function rightArrowPressed() {
             var element = document.getElementById("image");
-            element.style.left = parseInt(element.style.left) + 10 + 'px';
+            element.style.left = parseInt(element.style.left) + 1 + '%';
             }
-  
+
             function upArrowPressed() {
             var element = document.getElementById("image");
-            element.style.top = parseInt(element.style.top) - 10 + 'px';
+            element.style.top = parseInt(element.style.top) - 1 + '%';
             }
-  
+
             function downArrowPressed() {
-            var element document.getElementById("image");
-            element.style.top = parseInt(element.style.top) + 10 + 'px';
+            var element = document.getElementById("image");
+            element.style.top = parseInt(element.style.top) + 1 + '%';
             }
-  
+
             function moveSelection(evt) {
                 switch (evt.keyCode) {
                     case 37:
@@ -39,11 +60,13 @@
                     break;
                     }
                 };
-        function docReady() 
+
+        function docReady()
         {
           
           window.addEventListener('keydown', moveSelection);
         }
+
   </script>
 
 <style>
@@ -86,14 +109,14 @@ div.boxTitle {
 </head>
 <body onload="docReady()" onkeydown="" onkeyup="" bgcolor='black'>
   
-<img id="image" src="http://placekitten.com/69/69" style="position:absolute;left:0; top:0;" height="15" width="15">
+<img id="image" src="https://i.imgur.com/I29x6Mk.jpg" style="position:absolute;left:50%; top:60%;" height="30" width="30">
 
 <h1>Welcome</h1>
 
 	<p>This website is still a work in progress. Please come back later for more information.</p>
-	<div class="boxTitle" style="top:25%;left:15%;">Introduction
+	<div class="boxTitle" style="top:35%;left:15%;">Introduction
     <div class="infoBox"></div></div>
-    <div class="boxTitle" style="top:25%;right:15%;">Projects
+    <div class="boxTitle" style="top:35%;right:15%;">Projects
     <div class="infoBox"></div></div>
     <div class="boxTitle" style="bottom:15%;left:15%;">Achievements
     <div class="infoBox"></div></div>
