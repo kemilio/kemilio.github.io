@@ -1,127 +1,53 @@
 <html>
+
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    
-    <script type="text/javascript">
-    
-            function imagePosition(x, y, w, h, i, dx, dy) {
-              this.x = x;
-              this.y = y;
-              this.width = w;
-              this.height = h;
-              this.image = i;
-              this.dropzone = new DropZone(dx, dy, dw, dh);
-            }
-            
-            function DropZone(x, y, w, h) {
-              this.x = x;
-              this.y =y;
-              this.width = w;
-              this.height = h;
-	    }
 
-            function leftArrowPressed() {
-            var element = document.getElementById("image");
-            element.style.left = parseInt(element.style.left) - 3 + '%';
-            }
+    <h1>Welcome</h1>
+  </head>
 
-            function rightArrowPressed() {
-            var element = document.getElementById("image");
-            element.style.left = parseInt(element.style.left) + 3 + '%';
-            }
+  <body>
 
-            function upArrowPressed() {
-            var element = document.getElementById("image");
-            element.style.top = parseInt(element.style.top) - 5 + '%';
-            }
-
-            function downArrowPressed() {
-            var element = document.getElementById("image");
-            element.style.top = parseInt(element.style.top) + 5 + '%';
-            }
-
-            function moveSelection(evt) {
-                switch (evt.keyCode) {
-                    case 37:
-                    leftArrowPressed();
-                    break;
-                    case 39:
-                    rightArrowPressed();
-                    break;
-                    case 38:
-                    upArrowPressed();
-                    break;
-                    case 40:
-                    downArrowPressed();
-                    break;
-                    }
-                };
-
-        function docReady()
-        {
-          
-          window.addEventListener('keydown', moveSelection);
-        }
-
-  </script>
-
-<style>
-h1 {
-	color: white;
-	font-family: 'Muli', sans-serif;
-	font-size: 300%;
-	text-align: center;
-}
-p  {
-	color: white;
-	font-family: 'Muli', sans-serif;
-	font-size: 100%;
-}
-	
-div.update {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	color:#FFFFFF;
-	width: 300px;
-}
-	
-div.infoBox {
-	position: absolute;
-	width: 95px;
-	height: 80px;
-    border: 5px solid #FFFFFF;
-}
-
-div.boxTitle {
-	position: absolute;
-    width: 105px;
-    height: 95px;
-    color: #FFFFFF;
-    text-align: center;
-    }
-	
-</style>
-</head>
-<body onload="docReady()" onkeydown="" onkeyup="" bgcolor='black'>
-  
-<img id="image" src="stickfigure.png" style="position:absolute;left:50%; top:60%;" height="60" width="40">
-
-<h1>Welcome</h1>
-
-	<p>This website is still a work in progress. Please come back later for more information.</p>
-	<div class="boxTitle" style="bottom:75%;left:25%;">Introduction
-    <div class="infoBox"></div></div>
-    <div class="boxTitle" style="bottom:75%;right:25%;">Projects
-    <div class="infoBox"></div></div>
-    <div class="boxTitle" style="bottom:45%;left:25%;">Achievements
-    <div class="infoBox"></div></div>
-    <div class="boxTitle" style="bottom:45%;right:25%;">Activities
-    <div class="infoBox"></div></div>
-
-    <div class="update"><strong>Questions? Comments? </strong><a href="mailto:codykuchinski1@gmail.com">Email Me</a><br>
-    Last Updated 9/26/2017
+    <div class="boxTitle" style="bottom:75%;left:25%;">Introduction
+      <div class="infoBoxIntro"></div>
     </div>
+
+    <div class="boxTitle" style="bottom:75%;right:25%;">Projects
+      <div class="infoBoxProj"></div>
+    </div>
+
+    <div class="boxTitle" style="bottom:45%;left:25%;">Achievements
+      <div class="infoBoxAchieve"></div>
+    </div>
+
+    <div class="boxTitle" style="bottom:45%;right:25%;">Activities
+      <div class="infoBoxAct"></div>
+    </div>
+
+    <div class="imgBox">
+      <img src="null" id="avatar">
+    </div>
+
+    <div class="infoParaContainer">
+      <p id="infoPara">To move, use W, A, S and D.</p>
+    </div>
+
+    <div class="update"><strong>Questions? Comments? </strong><a href="mailto:codykuchinski1@gmail.com">Email Me</a>
+      <br> Last Updated 9/26/2017
+    </div>
+    <div class="mobile" onclick="turnMobile()" style="cursor: pointer;">
+      Accessing from a mobile device? Tap here!
+    </div>
+    <div class="about">
+      <strong>Cody Kuchinski</strong>
+      <br> Software Developer
+    </div>
+    
+    <div class="enemy">
+    </div>
+  </body>
+
+</html>
+    </div>
+<script src="indexFunctions.js"></script>
 </body>
 </html>
