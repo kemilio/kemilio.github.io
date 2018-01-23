@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<html>
-<head>Hi there, this is the head
-</head>
-<body>This is the body
-<p>This is the first paragraph
-</p>
-</body>
-</html>
