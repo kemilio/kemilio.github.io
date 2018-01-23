@@ -1,0 +1,166 @@
+@keyframes fade-in {
+  from {
+    color: rgba(0, 0, 0, 1);
+  }
+  to {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+@keyframes border-fade-in {
+  from {
+    border-color: rgba(0, 0, 0, 1);
+  }
+  to {
+    border-color: rgba(255, 255, 255, 1);
+  }
+}
+
+h1 {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Muli', sans-serif;
+  font-size: 300%;
+  text-align: center;
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+p {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Muli', sans-serif;
+  font-size: 100%;
+  animation-delay: 4s;
+  animation-name: fade-in;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+div.infoParaContainer {
+  position: absolute;
+  bottom: 10%;
+  right: 42%;
+}
+
+div.update {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: rgba(0, 0, 0, 1);
+  width: 200px;
+  animation-delay: 6s;
+  animation-name: fade-in;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+div.about {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: rgba(0, 0, 0, 1);
+  width: 130px;
+  animation-name: fade-in;
+  animation-delay: 6s;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+div.infoBoxIntro {
+  position: absolute;
+  width: 95px;
+  height: 80px;
+  border: 5px solid;
+  border-color: rgba(0, 0, 0, 1);
+  animation-name: border-fade-in;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-duration: 4s;
+}
+
+div.infoBoxProj {
+  position: absolute;
+  width: 95px;
+  height: 80px;
+  border: 5px solid;
+  border-color: rgba(0, 0, 0, 1);
+  animation-name: border-fade-in;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-duration: 4s;
+}
+
+div.infoBoxAchieve {
+  position: absolute;
+  width: 95px;
+  height: 80px;
+  border: 5px solid;
+  border-color: rgba(0, 0, 0, 1);
+  animation-name: border-fade-in;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-duration: 4s;
+}
+
+div.infoBoxAct {
+  position: absolute;
+  width: 95px;
+  height: 80px;
+  border: 5px solid;
+  border-color: rgba(0, 0, 0, 1);
+  animation-name: border-fade-in;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-duration: 4s;
+}
+
+div.boxTitle {
+  position: absolute;
+  width: 105px;
+  height: 95px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  animation-name: fade-in;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-duration: 4s;
+}
+
+div.imgBox {
+  position: absolute;
+  bottom: 20%;
+  right: 49%;
+  width: 20px;
+  height: 20px;
+}
+
+div.mobile {
+  position: absolute;
+  bottom: 0;
+  right: 42.5%;
+  color: rgba(0, 0, 0, 1);
+  height: 30px;
+  width: 190px;
+  font-size: 8pt;
+  border-color: rgba(0, 0, 0, 1);
+  border: solid 1px;
+  animation-name: fade-in, border-fade-in;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+  animation-duration: 4s;
+}
+
+div.enemy {
+  position: absolute;
+  border-color: rgba(255, 0, 0, 1);
+  border: solid 3px;
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  bottom: 25%;
+  left: 25%;
+}
