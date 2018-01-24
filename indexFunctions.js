@@ -39,7 +39,7 @@ Box.prototype.crossCheck = function() {
       imgBounds.top + 10 > this.y2 &&
       imgBounds.left + 10 > this.x1 &&
       imgBounds.left + 10 < this.x2)) {
-    window.location = this + ".html";
+    window.location = this.type + ".html";
   }
 }
 
@@ -115,40 +115,40 @@ document.addEventListener('keyup', function(e) {
 // Avatar image change for animation functions
 function forward() {
   topPos = img.offsetTop;
-  img.style.top = topPos - 3 + 'px';
+  img.style.top = topPos - 6 + 'px';
 }
 
 function left() {
   leftPos = img.offsetLeft;
-  img.style.left = leftPos - 3 + 'px'
+  img.style.left = leftPos - 6 + 'px'
 }
 
 function right() {
   leftPos = img.offsetLeft;
-  img.style.left = leftPos + 3 + 'px'
+  img.style.left = leftPos + 6 + 'px'
 }
 
 function back() {
   topPos = img.offsetTop;
-  img.style.top = topPos + 3 + 'px'
+  img.style.top = topPos + 6 + 'px'
 }
 
 mobile.onclick = function() {
 	intro.style.cursor="pointer";
 	intro.onclick = function() {
-  	infoPara.textContent = "TO INTRO!!";
+  	window.location = "intro.html";
   }
   proj.style.cursor="pointer";
   proj.onclick = function() {
-  	infoPara.textContent = "TO PROJ!!";
+  	window.location = "proj.html";
   }
   achieve.style.cursor="pointer";
   achieve.onclick = function() {
-  	infoPara.textContent = "TO ACHIEVE!!";
+  window.location = "achieve.html";
   }
   act.style.cursor="pointer";
   act.onclick = function() {
-  	infoPara.textContent = "TO ACT!!";
+  window.location = "act.html";
   }
   mobile.textContent = "Now tap on any box for more information"
 }
