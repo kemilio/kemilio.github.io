@@ -1,0 +1,19 @@
+body {
+  background: rgba(0, 0, 0, 1);
+  }
+
+div.para {
+  font-family: 'Muli' sans-serif;
+  font-size: 150%;
+  left-margin: 30px;
+  right-margin: 30px;
+  }
+ 
+ div.chart {
+  font-family: 'Muli', sans-serif;
+  background-color: rgba(255, 255, 255, 1);
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: rgba(0, 0, 0, 1);
+}
