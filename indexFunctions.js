@@ -39,9 +39,7 @@ Box.prototype.crossCheck = function() {
       imgBounds.top + 10 > this.y2 &&
       imgBounds.left + 10 > this.x1 &&
       imgBounds.left + 10 < this.x2)) {
-    console.log("FOUND IT!!!! " + this.type);
-    console.log(this);
-    infoPara.textContent = this.type + " here!";
+    window.location = this + ".html";
   }
 }
 
