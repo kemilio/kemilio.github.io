@@ -73,8 +73,8 @@ div.about {
 
 div.infoBoxIntro {
   position: absolute;
-  width: 95px;
-  height: 80px;
+  width: 180px;
+  height: 160px;
   border: 5px solid;
   border-color: rgba(0, 0, 0, 1);
   animation-name: border-fade-in;
@@ -85,8 +85,8 @@ div.infoBoxIntro {
 
 div.infoBoxProj {
   position: absolute;
-  width: 95px;
-  height: 80px;
+  width: 180px;
+  height: 160px;
   border: 5px solid;
   border-color: rgba(0, 0, 0, 1);
   animation-name: border-fade-in;
@@ -97,8 +97,8 @@ div.infoBoxProj {
 
 div.infoBoxAchieve {
   position: absolute;
-  width: 95px;
-  height: 80px;
+  width: 180px;
+  height: 160px;
   border: 5px solid;
   border-color: rgba(0, 0, 0, 1);
   animation-name: border-fade-in;
@@ -109,8 +109,8 @@ div.infoBoxAchieve {
 
 div.infoBoxAct {
   position: absolute;
-  width: 95px;
-  height: 80px;
+  width: 180px;
+  height: 160px;
   border: 5px solid;
   border-color: rgba(0, 0, 0, 1);
   animation-name: border-fade-in;
@@ -121,8 +121,8 @@ div.infoBoxAct {
 
 div.boxTitle {
   position: absolute;
-  width: 105px;
-  height: 95px;
+  width: 200px;
+  height: 175px;
   color: rgba(0, 0, 0, 1);
   text-align: center;
   animation-name: fade-in;
