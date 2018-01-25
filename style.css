@@ -168,10 +168,15 @@ div.enemy {
 
 div.chart {
   font-family: 'Muli', sans-serif;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 1);
   text-align: right;
   padding: 3px;
   margin: 1px;
-  color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  text-color: rgba(255, 0, 0, 1);
+}
+
+div.header {
+  padding-top: 30px;
 }
   
