@@ -35,7 +35,7 @@ p {
   color: rgba(0, 0, 0, 1);
   font-family: 'Muli', sans-serif;
   font-size: 100%;
-  animation-delay: 4s;
+  animation-delay: 2s;
   animation-name: fade-in;
   animation-duration: 4s;
   animation-fill-mode: forwards;
@@ -53,7 +53,7 @@ div.update {
   left: 0;
   color: rgba(0, 0, 0, 1);
   width: 200px;
-  animation-delay: 6s;
+  animation-delay: 2s;
   animation-name: fade-in;
   animation-duration: 4s;
   animation-fill-mode: forwards;
@@ -66,7 +66,7 @@ div.about {
   color: rgba(0, 0, 0, 1);
   width: 130px;
   animation-name: fade-in;
-  animation-delay: 6s;
+  animation-delay: 2s;
   animation-duration: 4s;
   animation-fill-mode: forwards;
 }
@@ -150,7 +150,7 @@ div.mobile {
   border-color: rgba(0, 0, 0, 1);
   border: solid 1px;
   animation-name: fade-in, border-fade-in;
-  animation-delay: 6s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-duration: 4s;
 }
