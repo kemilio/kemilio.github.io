@@ -31,6 +31,8 @@ div.backButton {
   bottom: 10%;
   left: 45%;
   font-family: 'Muli' sans-serif;
+  border: solid 3px;
+  border-color: rgba(255, 255, 255, 1);
   font-size: 200%;
   text-align: center;
   color: rgba(255, 255, 255, 1);
