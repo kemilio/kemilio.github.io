@@ -31,10 +31,6 @@ function Box(x1, x2, y1, y2, type) {
 }
 Box.prototype.crossCheck = function() {
   imgBounds = img.getBoundingClientRect();
-  console.log("img x1: " + imgBounds.left);
-  console.log("img x2: " + imgBounds.right);
-  console.log("img y1: " + imgBounds.bottom);
-  console.log("img y2: " + imgBounds.top);
   if ((imgBounds.top + 10 < this.y1 &&
       imgBounds.top + 10 > this.y2 &&
       imgBounds.left + 10 > this.x1 &&
@@ -54,19 +50,19 @@ document.addEventListener('keydown', function(e) {
     key = e.keyCode;
     if (!down) {
       switch (key) {
-        case 87:
+        case 38:
           activeUserForward = setInterval(forward, 40);
           activeImage = setInterval(walkingForward, 40);
           break;
-        case 65:
+        case 37:
           activeUserLeft = setInterval(left, 40);
           activeImage = setInterval(walkingLeft, 40);
           break;
-        case 68:
+        case 39:
           activeUserRight = setInterval(right, 40);
           activeImage = setInterval(walkingRight, 40);
           break;
-        case 83:
+        case 40:
           activeUserBack = setInterval(back, 40);
           activeImage = setInterval(walkingBack, 40);
           break;
@@ -110,6 +106,10 @@ document.addEventListener('keyup', function(e) {
     default:
       break;
   }
+clearInterval(activeUserBack);
+clearInterval(activeUserForward);
+clearInterval(activeUserRight);
+clearInterval(activeUserLeft):
 })
 
 // Avatar image change for animation functions
