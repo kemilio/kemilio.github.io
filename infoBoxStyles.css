@@ -5,11 +5,13 @@ body {
 h1 {
   font-family: 'Muli' sans-serif;
   background-color:rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 255, 1);
   text-align: center;
   }
   
 div.para {
   font-family: 'Muli' sans-serif;
+  color: rgba(255, 255, 255, 255, 1);
   font-size: 150%;
   left-margin: 30%;
   right-margin: 30%;
@@ -17,11 +19,11 @@ div.para {
  
  div.chart {
   font-family: 'Muli', sans-serif;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 1);
   text-align: right;
   padding: 3px;
   margin: 1px;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
 }
 
 div.backButton {
@@ -31,4 +33,5 @@ div.backButton {
   font-family: 'Muli' sans-serif;
   font-size: 200%;
   text-align: center;
+  color: rgba(255, 255, 255, 1);
   }
