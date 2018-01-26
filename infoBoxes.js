@@ -5,3 +5,6 @@ document.addEventListener('keydown', function(e) {
       windowlocation = 'afterIndex.html';
       }
   }
+backButton.addEventListener('click', function(e) {
+    windowlocation = 'afterIndex.html';
+    })
