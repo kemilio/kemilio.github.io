@@ -8,7 +8,6 @@ h1 {
   text-align: center;
   }
   
-
 div.para {
   font-family: 'Muli' sans-serif;
   font-size: 150%;
@@ -24,3 +23,9 @@ div.para {
   margin: 1px;
   color: rgba(255, 255, 255, 1);
 }
+
+div.backButton {
+  font-family: 'Muli' sans-serif;
+  font-size: 200%;
+  text-align: center;
+  }
