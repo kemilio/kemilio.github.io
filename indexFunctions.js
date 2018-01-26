@@ -50,19 +50,19 @@ document.addEventListener('keydown', function(e) {
     key = e.keyCode;
     if (!down) {
       switch (key) {
-        case 38:
+        case 87:
           activeUserForward = setInterval(forward, 40);
           activeImage = setInterval(walkingForward, 40);
           break;
-        case 37:
+        case 65:
           activeUserLeft = setInterval(left, 40);
           activeImage = setInterval(walkingLeft, 40);
           break;
-        case 39:
+        case 68:
           activeUserRight = setInterval(right, 40);
           activeImage = setInterval(walkingRight, 40);
           break;
-        case 40:
+        case 83:
           activeUserBack = setInterval(back, 40);
           activeImage = setInterval(walkingBack, 40);
           break;
