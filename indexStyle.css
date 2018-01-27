@@ -95,7 +95,7 @@ div.infoBoxProj {
   animation-duration: 4s;
 }
 
-div.infoBoxAchieve {
+div.infoBoxExp {
   position: absolute;
   width: 180px;
   height: 160px;
@@ -144,7 +144,7 @@ div.mobile {
   bottom: 0;
   right: 41.5%;
   color: rgba(0, 0, 0, 1);
-  height: 45px;
+  height: 60px;
   width: 250px;
   font-size: 8pt;
   border-color: rgba(0, 0, 0, 1);
