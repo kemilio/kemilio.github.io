@@ -109,7 +109,7 @@ document.addEventListener('keyup', function(e) {
 clearInterval(activeUserBack);
 clearInterval(activeUserForward);
 clearInterval(activeUserRight);
-clearInterval(activeUserLeft):
+clearInterval(activeUserLeft);
 })
 
 // Avatar image change for animation functions
