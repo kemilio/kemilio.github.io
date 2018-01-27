@@ -4,7 +4,7 @@ document.addEventListener('keydown', function(e) {
     if (key === 32) {
       windowlocation = 'afterIndex.html';
       }
-  }
+  }}
 backButton.addEventListener('click', function(e) {
     windowlocation = 'afterIndex.html';
     })
