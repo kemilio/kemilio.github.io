@@ -5,7 +5,7 @@ var avatar = document.getElementById('avatar')
 // Initialize information boxes
 var intro = document.querySelector('.infoBoxIntro');
 var proj = document.querySelector('.infoBoxProj');
-var achieve = document.querySelector('.infoBoxAchieve');
+var exp = document.querySelector('.infoBoxExp');
 var act = document.querySelector('.infoBoxAct');
 
 // Initialize paragraph, mobile mode div and other misc variables
@@ -17,7 +17,7 @@ var key, activeUserForward, activeUserLeft, activeUserRight, activeUserBack, top
 // Get webpage locations of info boxes and user img
 var introBounds = intro.getBoundingClientRect();
 var projBounds = proj.getBoundingClientRect();
-var achieveBounds = achieve.getBoundingClientRect();
+var expBounds = exp.getBoundingClientRect();
 var actBounds = act.getBoundingClientRect();
 var imgBounds = img.getBoundingClientRect();
 
@@ -42,7 +42,7 @@ Box.prototype.crossCheck = function() {
 // Initialize info boxes
 var introBox = new Box(introBounds.left, introBounds.right, introBounds.bottom, introBounds.top, 'intro');
 var projBox = new Box(projBounds.left, projBounds.right, projBounds.bottom, projBounds.top, 'proj');
-var achieveBox = new Box(achieveBounds.left, achieveBounds.right, achieveBounds.bottom, achieveBounds.top, 'achieve');
+var expBox = new Box(expBounds.left, expBounds.right, expBounds.bottom, expBounds.top, 'exp');
 var actBox = new Box(actBounds.left, actBounds.right, actBounds.bottom, actBounds.top, 'act');
 
 // Initialize user character movement functionality: Move
@@ -73,7 +73,7 @@ document.addEventListener('keydown', function(e) {
     }
     introBox.crossCheck();
     projBox.crossCheck();
-    achieveBox.crossCheck();
+    expBox.crossCheck();
     actBox.crossCheck();
   }
 
@@ -142,9 +142,9 @@ mobile.onclick = function() {
   proj.onclick = function() {
   	window.location = "proj.html";
   }
-  achieve.style.cursor="pointer";
-  achieve.onclick = function() {
-  window.location = "achieve.html";
+  exp.style.cursor="pointer";
+  exp.onclick = function() {
+  window.location = "exp.html";
   }
   act.style.cursor="pointer";
   act.onclick = function() {
