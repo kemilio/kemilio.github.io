@@ -2,6 +2,7 @@
 var img = document.querySelector('.imgBox');
 var user = document.getElementById('avatar');
 var hasMoved = false;
+var isMoving = false;
 
 // Initialize information boxes
 var intro = document.querySelector('.infoBoxIntro');
@@ -76,6 +77,7 @@ document.addEventListener('keydown', function(e) {
     }
 	if (switchBool) {
 		hasMoved = true;
+		isMoving = true;
 	}
     introBox.crossCheck();
     projBox.crossCheck();
@@ -109,6 +111,7 @@ document.addEventListener('keyup', function(e) {
 if (switchBool) {
 	clearInterval(activeImage);
         down = false;
+	isMoving = false;
 	activeImage = setInterval(standingAni, 40);
 	}
 })
@@ -196,10 +199,10 @@ function donothing() {};
 
 // User image will wave until user moves
 function standingAni() {
-	if (hasMoved) {
+	if (hasMoved && !isMoving) {
 	user.src = "stickfigureart/stand.png";
 	}
-	else {
+	else if (!hasMoved && !isMoving) {
 	user.src = "stickfigureart/wave1.png";
 	setTimeout(donothing(), 5);
   	user.src = "stickfigureart/wave2.png";
@@ -208,3 +211,5 @@ function standingAni() {
   	setTimeout(donothing(), 5);
 	}
 }
+
+standingAni();
