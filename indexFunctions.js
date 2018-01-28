@@ -1,6 +1,7 @@
 // Initialize user character
 var img = document.querySelector('.imgBox');
-var avatar = document.getElementById('avatar')
+var user = document.getElementById('avatar');
+var hasMoved = false;
 
 // Initialize information boxes
 var intro = document.querySelector('.infoBoxIntro');
@@ -12,7 +13,7 @@ var act = document.querySelector('.infoBoxAct');
 var infoPara = document.getElementById('infoPara');
 var mobile = document.querySelector('.mobile');
 var down = false;
-var key, activeUserForward, activeUserLeft, activeUserRight, activeUserBack, topPos, leftPos, rightPos, botPos;
+var key, activeUserForward, activeUserLeft, activeUserRight, activeUserBack, topPos, leftPos, rightPos, botPos, switchBool;
 
 // Get webpage locations of info boxes and user img
 var introBounds = intro.getBoundingClientRect();
@@ -47,6 +48,7 @@ var actBox = new Box(actBounds.left, actBounds.right, actBounds.bottom, actBound
 
 // Initialize user character movement functionality: Move
 document.addEventListener('keydown', function(e) {
+    switchBool = true;
     key = e.keyCode;
     if (!down) {
       switch (key) {
@@ -67,10 +69,14 @@ document.addEventListener('keydown', function(e) {
           activeImage = setInterval(walkingBack, 40);
           break;
         default:
+	  switchBool = false;
           break;
       }
       down = true;
     }
+	if (switchBool) {
+		hasMoved = true;
+	}
     introBox.crossCheck();
     projBox.crossCheck();
     expBox.crossCheck();
@@ -81,58 +87,33 @@ document.addEventListener('keydown', function(e) {
 
 // Initialize user character movement functionality: Stop
 document.addEventListener('keyup', function(e) {
+  switchBool = true;
   key = e.keyCode;
   switch (key) {
     case 87:
       clearInterval(activeUserForward);
-      clearInterval(activeImage);
-      down = false;
       break;
     case 65:
       clearInterval(activeUserLeft);
-      clearInterval(activeImage);
-      down = false;
       break;
     case 68:
       clearInterval(activeUserRight);
-      clearInterval(activeImage);
-      down = false;
       break;
     case 83:
       clearInterval(activeUserBack);
-      clearInterval(activeImage);
-      down = false;
       break;
     default:
+      switchBool = false;
       break;
   }
-clearInterval(activeUserBack);
-clearInterval(activeUserForward);
-clearInterval(activeUserRight);
-clearInterval(activeUserLeft);
+if (switchBool) {
+	clearInterval(activeImage);
+        down = false;
+	activeImage = setInterval(standingAni, 40);
+	}
 })
 
-// Avatar image change for animation functions
-function forward() {
-  topPos = img.offsetTop;
-  img.style.top = topPos - 6 + 'px';
-}
-
-function left() {
-  leftPos = img.offsetLeft;
-  img.style.left = leftPos - 6 + 'px'
-}
-
-function right() {
-  leftPos = img.offsetLeft;
-  img.style.left = leftPos + 6 + 'px'
-}
-
-function back() {
-  topPos = img.offsetTop;
-  img.style.top = topPos + 6 + 'px'
-}
-
+// Relocate user to webpage selected after clicking mobile button
 mobile.onclick = function() {
 	intro.style.cursor="pointer";
 	intro.onclick = function() {
@@ -153,40 +134,77 @@ mobile.onclick = function() {
   mobile.textContent = "Now tap on any box for more information"
 }
 
+// User image movement for animation functions
+function forward() {
+  topPos = img.offsetTop;
+  img.style.top = topPos - 6 + 'px';
+}
+
+function left() {
+  leftPos = img.offsetLeft;
+  img.style.left = leftPos - 6 + 'px'
+}
+
+function right() {
+  leftPos = img.offsetLeft;
+  img.style.left = leftPos + 6 + 'px'
+}
+
+function back() {
+  topPos = img.offsetTop;
+  img.style.top = topPos + 6 + 'px'
+}
+
+// Change user image for animations
 function walkingLeft() {
-  avatar.src = "left1"
+  user.src = "stickfigureart/runl1.png";
   setTimeout(donothing(), 5);
-  avatar.src = "left2"
+  user.src = "stickfigureart/runl2.png";
   setTimeout(donothing(), 5);
-  avatar.src = "left3"
+  user.src = "stickfigureart/runl3.png";
   setTimeout(donothing(), 5);
 }
 
 function walkingRight() {
-  avatar.src = "right1"
+  user.src = "stickfigureart/runr1.png";
   setTimeout(donothing(), 5);
-  avatar.src = "right2"
+  user.src = "stickfigureart/runr2.png";
   setTimeout(donothing(), 5);
-  avatar.src = "right3"
+  user.src = "stickfigureart/runr3.png";
   setTimeout(donothing(), 5);
 }
 
 function walkingForward() {
-  avatar.src = "right1"
+  user.src = "stickfigureart/runf1.png";
   setTimeout(donothing(), 5);
-  avatar.src = "right2"
+  user.src = "stickfigureart/runf2.png";
   setTimeout(donothing(), 5);
-  avatar.src = "right3"
+  user.src = "stickfigureart/runf3.png";
   setTimeout(donothing(), 5);
 }
 
 function walkingBack() {
-  avatar.src = "back1"
+  user.src = "stickfigureart/runb1.png";
   setTimeout(donothing(), 5);
-  avatar.src = "back2"
+  user.src = "stickfigureart/runb2.png";
   setTimeout(donothing(), 5);
-  avatar.src = "back3"
+  user.src = "stickfigureart/runb3.png";
   setTimeout(donothing(), 5);
 }
 
 function donothing() {};
+
+// User image will wave until user moves
+function standingAni() {
+	if (hasMoved) {
+	user.src = "stickfigureart/stand.png";
+	}
+	else {
+	user.src = "stickfigureart/wave1.png";
+	setTimeout(donothing(), 5);
+  	user.src = "stickfigureart/wave2.png";
+  	setTimeout(donothing(), 5);
+  	user.src = "stickfigureart/wave3.png";
+  	setTimeout(donothing(), 5);
+	}
+}
