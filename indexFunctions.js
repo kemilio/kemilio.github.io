@@ -204,11 +204,11 @@ function standingAni() {
 	}
 	else if (!hasMoved && !isMoving) {
 	user.src = "stickfigureart/wave1.png";
-	setTimeout(donothing(), 5);
+	setTimeout(donothing(), 1000);
   	user.src = "stickfigureart/wave2.png";
-  	setTimeout(donothing(), 5);
+  	setTimeout(donothing(), 1000);
   	user.src = "stickfigureart/wave3.png";
-  	setTimeout(donothing(), 5);
+  	setTimeout(donothing(), 1000);
 	}
 }
 
