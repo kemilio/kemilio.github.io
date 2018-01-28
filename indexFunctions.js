@@ -108,7 +108,7 @@ document.addEventListener('keyup', function(e) {
       switchBool = false;
       break;
   }
-if (switchBool) {
+if (switchBool && hasMoved) {
 	clearInterval(activeImage);
         down = false;
 	isMoving = false;
