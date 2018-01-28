@@ -108,7 +108,7 @@ document.addEventListener('keyup', function(e) {
       switchBool = false;
       break;
   }
-if (switchBool && hasMoved) {
+if (switchBool) {
 	clearInterval(activeImage);
         down = false;
 	isMoving = false;
@@ -205,8 +205,10 @@ function standingAni() {
 	else if (!hasMoved && !isMoving) {
 	user.src = "stickfigureart/wave1.png";
 	setTimeout(donothing(), 1000);
+	console.log("First wave");
   	user.src = "stickfigureart/wave2.png";
   	setTimeout(donothing(), 1000);
+	console.log("Second wave");
   	user.src = "stickfigureart/wave3.png";
   	setTimeout(donothing(), 1000);
 	}
