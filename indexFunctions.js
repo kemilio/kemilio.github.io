@@ -73,11 +73,11 @@ document.addEventListener('keydown', function(e) {
 	  switchBool = false;
           break;
       }
-      down = true;
     }
 	if (switchBool) {
 		hasMoved = true;
 		isMoving = true;
+		down = true;
 	}
     introBox.crossCheck();
     projBox.crossCheck();
