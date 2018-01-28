@@ -1,12 +1,9 @@
 h1 {
   padding-top: 30px;
-  color: blue;
+  color: rgba(255, 255, 255, 1);
   font-family: 'Muli', sans-serif;
   font-size: 300%;
   text-align: center;
-  animation-name: fade-in;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
 }
 
 body {
@@ -57,7 +54,7 @@ div.infoBoxProj {
   border-color: rgba(0, 0, 0, 1);
 }
 
-div.infoBoxAchieve {
+div.infoBoxExp {
   position: absolute;
   width: 180px;
   height: 160px;
@@ -92,36 +89,18 @@ div.imgBox {
 div.mobile {
   position: absolute;
   bottom: 0;
-  right: 42.5%;
+  right: 41.5%;
   color: rgba(0, 0, 0, 1);
-  height: 30px;
-  width: 190px;
+  height: 60px;
+  width: 250px;
   font-size: 8pt;
   border-color: rgba(0, 0, 0, 1);
-  border: solid 1px;
-}
-
-div.enemy {
-  position: absolute;
-  border-color: rgba(255, 0, 0, 1);
-  border: solid 3px;
-  width: 25px;
-  height: 25px;
-  border-radius: 100px;
-  bottom: 25%;
-  left: 25%;
-}
-
-div.chart {
-  font-family: 'Muli', sans-serif;
-  background-color: rgba(0, 0, 0, 1);
-  text-align: right;
-  padding: 3px;
-  margin: 1px;
-  color: rgba(255, 255, 255, 1);
-  text-color: rgba(255, 0, 0, 1);
+  border: solid 2px;
+  font-size: 140%;
 }
 
 div.header {
   padding-top: 30px;
 }
+  
+
