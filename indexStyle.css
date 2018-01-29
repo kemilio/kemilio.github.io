@@ -44,7 +44,7 @@ p {
 div.infoParaContainer {
   position: absolute;
   bottom: 10%;
-  right: 42%;
+  right: 42.5%;
 }
 
 div.update {
@@ -73,7 +73,7 @@ div.about {
 
 div.infoBoxIntro {
   position: absolute;
-  width: 180px;
+  width: 160px;
   height: 160px;
   border: 5px solid;
   border-color: rgba(0, 0, 0, 1);
@@ -85,7 +85,7 @@ div.infoBoxIntro {
 
 div.infoBoxProj {
   position: absolute;
-  width: 180px;
+  width: 160px;
   height: 160px;
   border: 5px solid;
   border-color: rgba(0, 0, 0, 1);
@@ -97,7 +97,7 @@ div.infoBoxProj {
 
 div.infoBoxExp {
   position: absolute;
-  width: 180px;
+  width: 160px;
   height: 160px;
   border: 5px solid;
   border-color: rgba(0, 0, 0, 1);
@@ -109,7 +109,7 @@ div.infoBoxExp {
 
 div.infoBoxAct {
   position: absolute;
-  width: 180px;
+  width: 160px;
   height: 160px;
   border: 5px solid;
   border-color: rgba(0, 0, 0, 1);
@@ -121,7 +121,7 @@ div.infoBoxAct {
 
 div.boxTitle {
   position: absolute;
-  width: 200px;
+  width: 220px;
   height: 175px;
   color: rgba(0, 0, 0, 1);
   text-align: center;
