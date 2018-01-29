@@ -195,7 +195,7 @@ function walkingBack() {
 //setTimeout(donothing, 5);
 //user.src = "stickfigureart/runb2.png";
 //setTimeout(donothing, 5);
-  er.src = "stickfigureart/runb3.png";
+  user.src = "stickfigureart/runb3.png";
 //setTimeout(donothing, 5);
 }
 
