@@ -204,13 +204,13 @@ function standingAni() {
 	}
 	else if (!hasMoved && !isMoving) {
 	user.src = "stickfigureart/wave1.png";
-	setTimeout(donothing, 1000);
+	setTimeout(function() {donothing()}, 1000);
 	console.log("First wave");
   	user.src = "stickfigureart/wave2.png";
-  	setTimeout(donothing, 1000);
+  	setTimeout(function() {donothing()}, 1000);
 	console.log("Second wave");
   	user.src = "stickfigureart/wave3.png";
-  	setTimeout(donothing, 1000);
+  	setTimeout(function() {donothing()}, 1000);
 	}
 }
 
