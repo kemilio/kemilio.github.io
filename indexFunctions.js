@@ -212,13 +212,15 @@ function standingAni() {
 	user.src = "stickfigureart/stand.png";
 	}
 	else if (!hasMoved && !isMoving) {
-	setTimeout(waveOne, 500);
+	waveOne();
 	console.log("First wave");
   	setTimeout(waveTwo, 500);
 	console.log("Second wave");
-  	setTimeout(waveThree, 500);
-    setTimeout(waveTwo, 500);
+  	setTimeout(waveThree, 1000);
+	setTimeout(waveTwo, 1500);
 	}
 }
 
-standingAni();
+while (!hasMoved) {
+	standingAni();
+}
