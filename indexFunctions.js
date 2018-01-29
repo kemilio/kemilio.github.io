@@ -33,10 +33,10 @@ function Box(x1, x2, y1, y2, type) {
 }
 Box.prototype.crossCheck = function() {
   imgBounds = img.getBoundingClientRect();
-  if ((imgBounds.top + 10 < this.y1 || imgBounds.top - 10 < this.y1 &&
-      imgBounds.top + 10 > this.y2 || imgBounds.top - 10 > this.y2 &&
-      imgBounds.left + 10 > this.x1 || imgBounds.left - 10 > this.x1&&
-      imgBounds.left + 10 < this.x2 || imgBounds.left - 10 < this.x2)) {
+  if ((imgBounds.top + 10 < this.y1 || imgBounds.top < this.y1 &&
+      imgBounds.top + 10 > this.y2 || imgBounds.top > this.y2 &&
+      imgBounds.left + 10 > this.x1 || imgBounds.left > this.x1&&
+      imgBounds.left + 10 < this.x2 || imgBounds.left < this.x2)) {
     window.location = this.type + ".html";
   }
 }
@@ -204,13 +204,13 @@ function standingAni() {
 	}
 	else if (!hasMoved && !isMoving) {
 	user.src = "stickfigureart/wave1.png";
-	setTimeout(function() {donothing()}, 1000);
+	setTimeout(function() {donothing}, 1000);
 	console.log("First wave");
   	user.src = "stickfigureart/wave2.png";
-  	setTimeout(function() {donothing()}, 1000);
+  	setTimeout(function() {donothing}, 1000);
 	console.log("Second wave");
   	user.src = "stickfigureart/wave3.png";
-  	setTimeout(function() {donothing()}, 1000);
+  	setTimeout(function() {donothing}, 1000);
 	}
 }
 
