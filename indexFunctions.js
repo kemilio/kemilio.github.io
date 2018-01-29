@@ -199,18 +199,25 @@ function donothing() {};
 
 // User image will wave until user moves
 function standingAni() {
+	function waveOne() {
+  	user.src = "stickfigureart/wave1.png";
+  }
+  function waveTwo() {
+  	user.src = "stickfigureart/wave2.png";
+  }
+  function waveThree() {
+  	user.src = "stickfigureart/wave3.png";
+  }
 	if (hasMoved && !isMoving) {
 	user.src = "stickfigureart/stand.png";
 	}
 	else if (!hasMoved && !isMoving) {
-	user.src = "stickfigureart/wave1.png";
-	setTimeout(function() {donothing}, 1000);
+	setTimeout(waveOne, 500);
 	console.log("First wave");
-  	user.src = "stickfigureart/wave2.png";
-  	setTimeout(function() {donothing}, 1000);
+  	setTimeout(waveTwo, 500);
 	console.log("Second wave");
-  	user.src = "stickfigureart/wave3.png";
-  	setTimeout(function() {donothing}, 1000);
+  	setTimeout(waveThree, 500);
+    setTimeout(waveTwo, 500);
 	}
 }
 
