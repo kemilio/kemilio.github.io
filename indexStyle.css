@@ -133,7 +133,7 @@ div.boxTitle {
 
 div.imgBox {
   position: absolute;
-  bottom: 20%;
+  bottom: 30%;
   right: 49%;
   width: 20px;
   height: 20px;
@@ -144,12 +144,12 @@ div.mobile {
   bottom: 0;
   right: 41.5%;
   color: rgba(0, 0, 0, 1);
-  height: 60px;
-  width: 250px;
+  height: 70px;
+  width: 260px;
   font-size: 8pt;
   border-color: rgba(0, 0, 0, 1);
   border: solid 2px;
-  font-size: 140%;
+  font-size: 150%;
   animation-name: fade-in, border-fade-in;
   animation-delay: 2s;
   animation-fill-mode: forwards;
