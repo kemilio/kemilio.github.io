@@ -43,6 +43,7 @@ p {
 
 div.infoParaContainer {
   position: absolute;
+  text-align: center;
   bottom: 10%;
   right: 42.5%;
 }
@@ -121,7 +122,7 @@ div.infoBoxAct {
 
 div.boxTitle {
   position: absolute;
-  width: 220px;
+  width: 200px;
   height: 175px;
   color: rgba(0, 0, 0, 1);
   text-align: center;
