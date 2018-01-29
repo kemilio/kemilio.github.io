@@ -74,7 +74,7 @@ div.about {
 
 div.infoBoxIntro {
   position: absolute;
-  width: 160px;
+  width: 140px;
   height: 160px;
   border: 5px solid;
   border-color: rgba(0, 0, 0, 1);
@@ -86,7 +86,7 @@ div.infoBoxIntro {
 
 div.infoBoxProj {
   position: absolute;
-  width: 160px;
+  width: 140px;
   height: 160px;
   border: 5px solid;
   border-color: rgba(0, 0, 0, 1);
@@ -98,7 +98,7 @@ div.infoBoxProj {
 
 div.infoBoxExp {
   position: absolute;
-  width: 160px;
+  width: 140px;
   height: 160px;
   border: 5px solid;
   border-color: rgba(0, 0, 0, 1);
@@ -110,7 +110,7 @@ div.infoBoxExp {
 
 div.infoBoxAct {
   position: absolute;
-  width: 160px;
+  width: 140px;
   height: 160px;
   border: 5px solid;
   border-color: rgba(0, 0, 0, 1);
