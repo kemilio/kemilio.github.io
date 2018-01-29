@@ -160,39 +160,43 @@ function back() {
 
 // Change user image for animations
 function walkingLeft() {
-  user.src = "stickfigureart/runl1.png";
-  setTimeout(donothing, 5);
-  user.src = "stickfigureart/runl2.png";
-  setTimeout(donothing, 5);
+// Working on a good animation technqiue; tricky with a single thread!
+//user.src = "stickfigureart/runl1.png";
+//setTimeout(donothing, 5);
+//user.src = "stickfigureart/runl2.png";
+//setTimeout(donothing, 5);
   user.src = "stickfigureart/runl3.png";
-  setTimeout(donothing, 5);
+//setTimeout(donothing, 5);
 }
 
 function walkingRight() {
+// Working on a good animation technique; tricky with a single thread!
   user.src = "stickfigureart/runr1.png";
-  setTimeout(donothing, 5);
-  user.src = "stickfigureart/runr2.png";
-  setTimeout(donothing, 5);
-  user.src = "stickfigureart/runr3.png";
+//  setTimeout(donothing, 5);
+//  user.src = "stickfigureart/runr2.png";
+//  setTimeout(donothing, 5);
+//user.src = "stickfigureart/runr3.png";
   setTimeout(donothing, 5);
 }
 
 function walkingForward() {
-  user.src = "stickfigureart/runf1.png";
-  setTimeout(donothing, 5);
-  user.src = "stickfigureart/runf2.png";
-  setTimeout(donothing, 5);
+// Working on a good animation technique; tricky with a single thread!
+//user.src = "stickfigureart/runf1.png";
+//setTimeout(donothing, 5);
+//user.src = "stickfigureart/runf2.png";
+//setTimeout(donothing, 5);
   user.src = "stickfigureart/runf3.png";
   setTimeout(donothing, 5);
 }
 
 function walkingBack() {
-  user.src = "stickfigureart/runb1.png";
-  setTimeout(donothing, 5);
-  user.src = "stickfigureart/runb2.png";
-  setTimeout(donothing, 5);
-  user.src = "stickfigureart/runb3.png";
-  setTimeout(donothing, 5);
+// Working on a good animation technique; tricky with a single thread!
+//user.src = "stickfigureart/runb1.png";
+//setTimeout(donothing, 5);
+//user.src = "stickfigureart/runb2.png";
+//setTimeout(donothing, 5);
+  er.src = "stickfigureart/runb3.png";
+//setTimeout(donothing, 5);
 }
 
 function donothing() {};
@@ -212,15 +216,14 @@ function standingAni() {
 	user.src = "stickfigureart/stand.png";
 	}
 	else if (!hasMoved && !isMoving) {
-	waveOne();
-	console.log("First wave");
-  	setTimeout(waveTwo, 500);
-	console.log("Second wave");
-  	setTimeout(waveThree, 1000);
-	setTimeout(waveTwo, 1500);
+	user.src = "stickfigureart/wave1.png";
+	//waveOne();
+	//console.log("First wave");
+  	//setTimeout(waveTwo, 500);
+	//console.log("Second wave");
+  	//setTimeout(waveThree, 1000);
+	//setTimeout(waveTwo, 1500);
 	}
 }
 
-while (!hasMoved) {
-	standingAni();
-}
+standingAni();
