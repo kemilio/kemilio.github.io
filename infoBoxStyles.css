@@ -42,4 +42,5 @@ div.backButton {
   text-align: center;
   color: rgba(255, 255, 255, 1);
   border: solid 3px;
+  cursor: pointer;
   }
