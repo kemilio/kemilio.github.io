@@ -20,7 +20,7 @@ h1 {
   padding-top: 30px;
   color: rgba(35, 35, 35, 1);
   font-family: 'Josefin Sans';
-  font-size: 300%;
+  font-size: 400%;
   text-align: center;
   animation-name: fade-in;
   animation-duration: 2s;
@@ -42,11 +42,12 @@ p {
 }
 
 div.infoParaContainer {
+  color: rgba(230, 240, 245, 1);
   position: absolute;
   text-align: center;
   font-size: 125%;
   bottom: 10%;
-  right: 42.5%;
+  right: 50%;
 }
 
 div.update {
@@ -56,7 +57,7 @@ div.update {
   left: 0;
   color:rgba(230, 240, 245, 1);
   font-size: 125%;
-  width: 200px;
+  width: 300px;
   animation-delay: 2s;
   animation-name: fade-in;
   animation-duration: 4s;
@@ -70,7 +71,7 @@ div.about {
   right: 0;
   color:rgba(230, 240, 245, 1);
   font-size: 125%;
-  width: 130px;
+  width: 230px;
   animation-name: fade-in;
   animation-delay: 2s;
   animation-duration: 4s;
