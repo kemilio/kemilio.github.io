@@ -1,6 +1,6 @@
 @keyframes fade-in {
   from {
-    background-color: rgba(35, 64, 153, 1);
+    background-color: rgba(230, 240, 245, 1);
   }
   to {
     color: rgba(255, 255, 255, 1);
@@ -9,7 +9,7 @@
 
 @keyframes border-fade-in {
   from {
-    border-color: rgba(35, 64, 153, 1);
+    border-color: rgba(230, 240, 245, 1);
   }
   to {
     border-color: rgba(255, 255, 255, 1);
@@ -28,7 +28,7 @@ h1 {
 }
 
 body {
-  background-color: rgba(35, 64, 153, 1);
+  background-color: rgba(230, 240, 245, 1);
 }
 
 p {
@@ -84,7 +84,7 @@ div.infoBoxIntro {
   animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-duration: 4s;
-  background-color: rgba(35, 64, 153, 1);
+  background-color: rgba(230, 240, 245, 1);
 }
 
 div.infoBoxProj {
@@ -97,7 +97,7 @@ div.infoBoxProj {
   animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-duration: 4s;
-  background-color: rgba(35, 64, 153, 1);
+  background-color: rgba(230, 240, 245, 1);
 }
 
 div.infoBoxExp {
@@ -110,7 +110,7 @@ div.infoBoxExp {
   animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-duration: 4s;
-  background-color: rgba(35, 64, 153, 1);
+  background-color: rgba(230, 240, 245, 1);
 }
 
 div.infoBoxAct {
@@ -123,7 +123,7 @@ div.infoBoxAct {
   animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-duration: 4s;
-  background-color: rgba(35, 64, 153, 1);
+  background-color: rgba(230, 240, 245, 1);
 }
 
 div.boxTitle {
