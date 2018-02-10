@@ -76,7 +76,6 @@ div.infoBoxIntro {
   position: absolute;
   width: 160px;
   height: 160px;
-  border: 5px solid;
   border-color: rgba(0, 0, 0, 1);
   animation-name: border-fade-in;
   animation-delay: 2s;
@@ -88,7 +87,6 @@ div.infoBoxProj {
   position: absolute;
   width: 160px;
   height: 160px;
-  border: 5px solid;
   border-color: rgba(0, 0, 0, 1);
   animation-name: border-fade-in;
   animation-delay: 2s;
@@ -100,7 +98,6 @@ div.infoBoxExp {
   position: absolute;
   width: 160px;
   height: 160px;
-  border: 5px solid;
   border-color: rgba(0, 0, 0, 1);
   animation-name: border-fade-in;
   animation-delay: 2s;
@@ -112,7 +109,6 @@ div.infoBoxAct {
   position: absolute;
   width: 160px;
   height: 160px;
-  border: 5px solid;
   border-color: rgba(0, 0, 0, 1);
   animation-name: border-fade-in;
   animation-delay: 2s;
