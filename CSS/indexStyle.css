@@ -1,6 +1,6 @@
 @keyframes fade-in {
   from {
-    color: rgba(0, 0, 0, 1);
+    background-color: rgba(35, 64, 153, 1);
   }
   to {
     color: rgba(255, 255, 255, 1);
@@ -9,7 +9,7 @@
 
 @keyframes border-fade-in {
   from {
-    border-color: rgba(0, 0, 0, 1);
+    border-color: rgba(35, 64, 153, 1);
   }
   to {
     border-color: rgba(255, 255, 255, 1);
@@ -28,7 +28,7 @@ h1 {
 }
 
 body {
-  background-color: rgba(170, 170, 170, 1);
+  background-color: rgba(35, 64, 153, 1);
 }
 
 p {
@@ -84,6 +84,7 @@ div.infoBoxIntro {
   animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-duration: 4s;
+  background-color: rgba(35, 64, 153, 1);
 }
 
 div.infoBoxProj {
@@ -96,6 +97,7 @@ div.infoBoxProj {
   animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-duration: 4s;
+  background-color: rgba(35, 64, 153, 1);
 }
 
 div.infoBoxExp {
@@ -108,6 +110,7 @@ div.infoBoxExp {
   animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-duration: 4s;
+  background-color: rgba(35, 64, 153, 1);
 }
 
 div.infoBoxAct {
@@ -120,6 +123,7 @@ div.infoBoxAct {
   animation-delay: 2s;
   animation-fill-mode: forwards;
   animation-duration: 4s;
+  background-color: rgba(35, 64, 153, 1);
 }
 
 div.boxTitle {
@@ -141,6 +145,7 @@ div.imgBox {
   right: 48%;
   width: 20px;
   height: 20px;
+  background-color: rgba(35, 64, 153, 1);
 }
 
 div.mobile {
