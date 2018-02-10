@@ -1,46 +1,46 @@
 body {
-  background-color: rgba(170, 170, 170, 1);
+  background-color:rgba(230, 240, 245, 1);
   }
   
 h1 {
-  font-family: 'Muli', sans-serif;
-  background-color:rgba(170, 170, 170, 1);
-  color:  rgba(255,255,255,1);
+  font-family: 'Josefin Sans';
+  background-color:rgba(230, 240, 245, 1);
+  color: rgba(35, 35, 35, 1);
   text-align: center;
   }
   
 div.para {
-  font-family: 'Muli', sans-serif;
-  color:  rgba(255,255,255,1);
-  font-size: 120%;
+  font-family: 'Josefin Sans';
+  color: rgba(35, 35, 35, 1);
+  font-size: 140%;
   margin-left: 20%;
   margin-right: 20%;
-  background-color:rgba(170, 170, 170, 1);
+  background-color:rgba(230, 240, 245, 1);
   }
  
  div.chart {
-  font-family: 'Muli', sans-serif;
-  background-color:rgba(170, 170, 170, 1);
-  color: rgba(255, 255, 255, 1);
+  font-family: 'Josefin Sans';
+  background-color:rgba(230, 240, 245, 1);
+  color: rgba(35, 35, 35, 1);
 }
 
 div.bar {
-  font-family: 'Muli', sans-serif;
-  color:  rgba(255,255,255,1);
+  font-family: 'Josefin Sans';
+  color: rgba(35, 35, 35, 1);
   text-align: right;
   padding: 3px;
   margin: 1px;
-  background-color:rgba(170, 170, 170, 1);
+  background-color:rgba(230, 240, 245, 1);
 }
 
 div.backButton {
   position: absolute;
   top: 0%;
   left: 0%;
-  font-family: 'Muli', sans-serif;
-  font-size: 125%;
+  font-family: 'Josefin Sans';
+  font-size: 150%;
   text-align: center;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(35, 35, 35, 1);
   border: solid 3px;
   cursor: pointer;
   }
