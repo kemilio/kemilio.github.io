@@ -19,7 +19,7 @@
 h1 {
   padding-top: 30px;
   color: rgba(255, 255, 255, 1);
-  font-family: 'Impact';
+  font-family: 'Josefin Sans';
   font-size: 300%;
   text-align: center;
   animation-name: fade-in;
@@ -28,12 +28,12 @@ h1 {
 }
 
 body {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(170, 170, 170, 1);
 }
 
 p {
   color: rgba(0, 0, 0, 1);
-  font-family: 'Impact';
+  font-family: 'Josefin Sans';
   font-size: 100%;
   animation-delay: 2s;
   animation-name: fade-in;
@@ -50,6 +50,7 @@ div.infoParaContainer {
 
 div.update {
   position: absolute;
+  font-family: 'Josefin Sans';
   bottom: 0;
   left: 0;
   color: rgba(0, 0, 0, 1);
@@ -62,6 +63,7 @@ div.update {
 
 div.about {
   position: absolute;
+  font-family: 'Josefin Sans';
   bottom: 0;
   right: 0;
   color: rgba(0, 0, 0, 1);
@@ -74,6 +76,7 @@ div.about {
 
 div.infoBoxIntro {
   position: absolute;
+  font-family: 'Josefin Sans';
   width: 160px;
   height: 160px;
   border-color: rgba(0, 0, 0, 1);
@@ -85,6 +88,7 @@ div.infoBoxIntro {
 
 div.infoBoxProj {
   position: absolute;
+  font-family: 'Josefin Sans';
   width: 160px;
   height: 160px;
   border-color: rgba(0, 0, 0, 1);
@@ -96,6 +100,7 @@ div.infoBoxProj {
 
 div.infoBoxExp {
   position: absolute;
+  font-family: 'Josefin Sans';
   width: 160px;
   height: 160px;
   border-color: rgba(0, 0, 0, 1);
@@ -107,6 +112,7 @@ div.infoBoxExp {
 
 div.infoBoxAct {
   position: absolute;
+  font-family: 'Josefin Sans';
   width: 160px;
   height: 160px;
   border-color: rgba(0, 0, 0, 1);
@@ -118,6 +124,7 @@ div.infoBoxAct {
 
 div.boxTitle {
   position: absolute;
+  font-family: 'Josefin Sans';
   width: 175px;
   height: 175px;
   color: rgba(0, 0, 0, 1);
@@ -138,6 +145,7 @@ div.imgBox {
 
 div.mobile {
   position: absolute;
+  font-family: 'Josefin Sans';
   bottom: 0;
   right: 41.5%;
   color: rgba(0, 0, 0, 1);
