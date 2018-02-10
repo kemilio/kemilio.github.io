@@ -19,7 +19,7 @@
 h1 {
   padding-top: 30px;
   color: rgba(255, 255, 255, 1);
-  font-family: 'Muli', sans-serif;
+  font-family: 'Impact';
   font-size: 300%;
   text-align: center;
   animation-name: fade-in;
@@ -33,7 +33,7 @@ body {
 
 p {
   color: rgba(0, 0, 0, 1);
-  font-family: 'Muli', sans-serif;
+  font-family: 'Impact';
   font-size: 100%;
   animation-delay: 2s;
   animation-name: fade-in;
@@ -131,7 +131,7 @@ div.boxTitle {
 div.imgBox {
   position: absolute;
   bottom: 35%;
-  right: 49%;
+  right: 48%;
   width: 20px;
   height: 20px;
 }
