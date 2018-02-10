@@ -44,6 +44,7 @@ p {
 div.infoParaContainer {
   position: absolute;
   text-align: center;
+  font-size: 150%;
   bottom: 10%;
   right: 42.5%;
 }
@@ -53,7 +54,8 @@ div.update {
   font-family: 'Josefin Sans';
   bottom: 0;
   left: 0;
-  color: rgba(35, 35, 35, 1);
+  color:rgba(230, 240, 245, 1);
+  font-size: 150%;
   width: 200px;
   animation-delay: 2s;
   animation-name: fade-in;
@@ -66,7 +68,8 @@ div.about {
   font-family: 'Josefin Sans';
   bottom: 0;
   right: 0;
-  color: rgba(35, 35, 35, 1);
+  color:rgba(230, 240, 245, 1);
+  font-size: 150%;
   width: 130px;
   animation-name: fade-in;
   animation-delay: 2s;
@@ -131,7 +134,8 @@ div.boxTitle {
   font-family: 'Josefin Sans';
   width: 175px;
   height: 175px;
-  color: rgba(35, 35, 35, 1);
+  font-size: 150%;
+  color:rgba(230, 240, 245, 1);
   text-align: center;
   animation-name: fade-in;
   animation-delay: 2s;
@@ -152,12 +156,12 @@ div.mobile {
   font-family: 'Josefin Sans';
   bottom: 0;
   right: 41.5%;
-  color: rgba(35, 35, 35, 1);
+  color:rgba(230, 240, 245, 1);
   height: 70px;
   width: 260px;
   font-size: 8pt;
   text-align: center;
-  border-color: rgba(35, 35, 35, 1);
+  border-color:rgba(230, 240, 245, 1);;
   border: solid 2px;
   font-size: 150%;
   animation-name: fade-in, border-fade-in;
