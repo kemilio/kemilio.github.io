@@ -1,6 +1,6 @@
 @keyframes fade-in {
   from {
-    background-color: rgba(230, 240, 245, 1);
+    color: rgba(230, 240, 245, 1);
   }
   to {
     color: rgba(255, 255, 255, 1);
@@ -79,7 +79,7 @@ div.infoBoxIntro {
   font-family: 'Josefin Sans';
   width: 160px;
   height: 160px;
-  border-color: rgba(0, 0, 0, 1);
+  border-color: rgba(230, 240, 245, 1);
   animation-name: border-fade-in;
   animation-delay: 2s;
   animation-fill-mode: forwards;
@@ -92,7 +92,7 @@ div.infoBoxProj {
   font-family: 'Josefin Sans';
   width: 160px;
   height: 160px;
-  border-color: rgba(0, 0, 0, 1);
+  border-color: rgba(230, 240, 245, 1);
   animation-name: border-fade-in;
   animation-delay: 2s;
   animation-fill-mode: forwards;
@@ -105,7 +105,7 @@ div.infoBoxExp {
   font-family: 'Josefin Sans';
   width: 160px;
   height: 160px;
-  border-color: rgba(0, 0, 0, 1);
+  border-color: rgba(230, 240, 245, 1);
   animation-name: border-fade-in;
   animation-delay: 2s;
   animation-fill-mode: forwards;
@@ -118,7 +118,7 @@ div.infoBoxAct {
   font-family: 'Josefin Sans';
   width: 160px;
   height: 160px;
-  border-color: rgba(0, 0, 0, 1);
+  border-color: rgba(230, 240, 245, 1);
   animation-name: border-fade-in;
   animation-delay: 2s;
   animation-fill-mode: forwards;
