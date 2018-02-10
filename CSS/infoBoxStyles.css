@@ -1,36 +1,36 @@
 body {
-  background-color: rgba(255, 255, 255, .3);
+  background-color: rgba(170, 170, 170, 1);
   }
   
 h1 {
   font-family: 'Muli', sans-serif;
-  background-color:rgba(0, 0, 0, 1);
-  color:  rgba(50,50,255,1);
+  background-color:rgba(170, 170, 170, 1);
+  color:  rgba(255,255,255,1);
   text-align: center;
   }
   
 div.para {
   font-family: 'Muli', sans-serif;
-  color:  rgba(50,50,255,1);
+  color:  rgba(255,255,255,1);
   font-size: 120%;
   margin-left: 20%;
   margin-right: 20%;
-  background-color: rgba(0, 0, 0, 1);
+  background-color:rgba(170, 170, 170, 1);
   }
  
  div.chart {
   font-family: 'Muli', sans-serif;
-  background-color: rgba(255,255,255,.3);
+  background-color:rgba(170, 170, 170, 1);
   color: rgba(255, 255, 255, 1);
 }
 
 div.bar {
   font-family: 'Muli', sans-serif;
-  color:  rgba(50,50,255,1);
+  color:  rgba(255,255,255,1);
   text-align: right;
   padding: 3px;
   margin: 1px;
-  color: rgba(0, 0, 0, 1);
+  background-color:rgba(170, 170, 170, 1);
 }
 
 div.backButton {
