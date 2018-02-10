@@ -144,6 +144,7 @@ div.mobile {
   height: 70px;
   width: 260px;
   font-size: 8pt;
+  text-align: center;
   border-color: rgba(0, 0, 0, 1);
   border: solid 2px;
   font-size: 150%;
