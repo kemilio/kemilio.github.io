@@ -37,7 +37,7 @@ Box.prototype.crossCheck = function() {
       (imgBounds.top + 10 > this.y2 || imgBounds.top > this.y2) &&
       (imgBounds.left + 10 > this.x1 || imgBounds.left > this.x1) &&
       (imgBounds.left + 10 < this.x2 || imgBounds.left < this.x2)) {
-    window.location = this.type + ".html";
+    window.location = "HTML/" + this.type + ".html";
   }
 }
 
@@ -120,19 +120,19 @@ if (switchBool) {
 mobile.onclick = function() {
 	intro.style.cursor="pointer";
 	intro.onclick = function() {
-  	window.location = "intro.html";
+  	window.location = "HTML/intro.html";
   }
   proj.style.cursor="pointer";
   proj.onclick = function() {
-  	window.location = "proj.html";
+  	window.location = "HTML/proj.html";
   }
   exp.style.cursor="pointer";
   exp.onclick = function() {
-  window.location = "exp.html";
+  window.location = "HTML/exp.html";
   }
   act.style.cursor="pointer";
   act.onclick = function() {
-  window.location = "act.html";
+  window.location = "HTML/act.html";
   }
   mobile.textContent = "Now tap on any box for more information"
 }
