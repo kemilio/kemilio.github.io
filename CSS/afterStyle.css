@@ -1,106 +1,119 @@
 h1 {
   padding-top: 30px;
-  color: rgba(255, 255, 255, 1);
-  font-family: 'Muli', sans-serif;
-  font-size: 300%;
+  color: rgba(35, 35, 35, 1);
+  font-family: 'Josefin Sans';
+  font-size: 400%;
   text-align: center;
 }
 
 body {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(230, 240, 245, 1);
 }
 
 p {
-  color: rgba(255, 255, 255, 1);
-  font-family: 'Muli', sans-serif;
+  color: rgba(230, 240, 245, 1);
+  font-family: 'Josefin Sans';
   font-size: 100%;
 }
 
 div.infoParaContainer {
+  color: rgba(230, 240, 245, 1);
   position: absolute;
+  text-align: center;
+  font-size: 125%;
   bottom: 10%;
-  right: 42%;
+  right: 40%;
 }
 
 div.update {
   position: absolute;
+  font-family: 'Josefin Sans';
   bottom: 0;
   left: 0;
-  color: rgba(255, 255, 255, 1);
-  width: 200px;
+  color:rgba(230, 240, 245, 1);
+  font-size: 125%;
+  width: 320px;
 }
 
 div.about {
   position: absolute;
+  font-family: 'Josefin Sans';
   bottom: 0;
   right: 0;
-  color: rgba(255, 255, 255, 1);
-  width: 130px;
+  color:rgba(230, 240, 245, 1);
+  font-size: 125%;
+  width: 190px;
 }
 
 div.infoBoxIntro {
   position: absolute;
+  font-family: 'Josefin Sans';
   width: 160px;
   height: 160px;
-  border: 5px solid;
-  border-color: rgba(255, 255, 255, 1);
+  border-color: rgba(230, 240, 245, 1);
+  background-color: rgba(230, 240, 245, 1);
 }
 
 div.infoBoxProj {
   position: absolute;
+  font-family: 'Josefin Sans';
   width: 160px;
   height: 160px;
-  border: 5px solid;
-  border-color: rgba(255, 255, 255, 1);
+  border-color: rgba(230, 240, 245, 1);
+  background-color: rgba(230, 240, 245, 1);
 }
 
 div.infoBoxExp {
   position: absolute;
+  font-family: 'Josefin Sans';
   width: 160px;
   height: 160px;
-  border: 5px solid;
-  border-color: rgba(255, 255, 255, 1);
+  border-color: rgba(230, 240, 245, 1);
+  background-color: rgba(230, 240, 245, 1);
 }
 
 div.infoBoxAct {
   position: absolute;
+  font-family: 'Josefin Sans';
   width: 160px;
   height: 160px;
-  border: 5px solid;
-  border-color: rgba(255, 255, 255, 1);
+  border-color: rgba(230, 240, 245, 1);
+  background-color: rgba(230, 240, 245, 1);
 }
 
 div.boxTitle {
   position: absolute;
-  width: 175px;
+  font-family: 'Josefin Sans';
+  width: 155px;
   height: 175px;
-  color: rgba(255, 255, 255, 1);
+  font-size: 150%;
+  color:rgba(230, 240, 245, 1);
   text-align: center;
 }
 
 div.imgBox {
   position: absolute;
-  bottom: 25%;
-  right: 49%;
+  bottom: 35%;
+  right: 50%;
   width: 20px;
   height: 20px;
 }
 
 div.mobile {
   position: absolute;
+  font-family: 'Josefin Sans';
   bottom: 0;
   right: 41.5%;
-  color: rgba(255, 255, 255, 1);
-  height: 60px;
-  width: 250px;
+  color:rgba(230, 240, 245, 1);
+  height: 70px;
+  width: 260px;
   font-size: 8pt;
-  border-color: rgba(255, 255, 255, 1);
+  text-align: center;
+  border-color:rgba(230, 240, 245, 1);;
   border: solid 2px;
-  font-size: 140%;
+  font-size: 150%;
 }
 
 div.header {
   padding-top: 30px;
 }
-  
-
