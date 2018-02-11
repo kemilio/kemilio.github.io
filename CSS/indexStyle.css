@@ -47,7 +47,7 @@ div.infoParaContainer {
   text-align: center;
   font-size: 125%;
   bottom: 10%;
-  right: 50%;
+  right: 40%;
 }
 
 div.update {
@@ -71,7 +71,7 @@ div.about {
   right: 0;
   color:rgba(230, 240, 245, 1);
   font-size: 125%;
-  width: 230px;
+  width: 200px;
   animation-name: fade-in;
   animation-delay: 2s;
   animation-duration: 4s;
@@ -133,7 +133,7 @@ div.infoBoxAct {
 div.boxTitle {
   position: absolute;
   font-family: 'Josefin Sans';
-  width: 145px;
+  width: 150px;
   height: 175px;
   font-size: 150%;
   color:rgba(230, 240, 245, 1);
@@ -164,7 +164,7 @@ div.mobile {
   text-align: center;
   border-color:rgba(230, 240, 245, 1);;
   border: solid 2px;
-  font-size: 125%;
+  font-size: 150%;
   animation-name: fade-in, border-fade-in;
   animation-delay: 2s;
   animation-fill-mode: forwards;
