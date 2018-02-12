@@ -57,7 +57,7 @@ div.update {
   left: 0;
   color:rgba(230, 240, 245, 1);
   font-size: 140%;
-  width: 340px;
+  width: 350px;
   animation-delay: 2s;
   animation-name: fade-in;
   animation-duration: 4s;
@@ -71,7 +71,7 @@ div.about {
   right: 0;
   color:rgba(230, 240, 245, 1);
   font-size: 150%;
-  width: 180px;
+  width: 190px;
   animation-name: fade-in;
   animation-delay: 2s;
   animation-duration: 4s;
