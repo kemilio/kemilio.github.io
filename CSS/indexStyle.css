@@ -53,11 +53,11 @@ div.infoParaContainer {
 div.update {
   position: absolute;
   font-family: 'Josefin Sans';
-  bottom: 0;
+  top: 0;
   left: 0;
   color:rgba(230, 240, 245, 1);
-  font-size: 125%;
-  width: 320px;
+  font-size: 140%;
+  width: 330px;
   animation-delay: 2s;
   animation-name: fade-in;
   animation-duration: 4s;
@@ -67,11 +67,11 @@ div.update {
 div.about {
   position: absolute;
   font-family: 'Josefin Sans';
-  bottom: 0;
+  top: 0;
   right: 0;
   color:rgba(230, 240, 245, 1);
-  font-size: 125%;
-  width: 180px;
+  font-size: 150%;
+  width: 190px;
   animation-name: fade-in;
   animation-delay: 2s;
   animation-duration: 4s;
