@@ -140,22 +140,22 @@ mobile.onclick = function() {
 // User image movement for animation functions
 function forward() {
   topPos = img.offsetTop;
-  img.style.top = topPos - 6 + 'px';
+  img.style.top = topPos - 10 + 'px';
 }
 
 function left() {
   leftPos = img.offsetLeft;
-  img.style.left = leftPos - 6 + 'px'
+  img.style.left = leftPos - 10 + 'px'
 }
 
 function right() {
   leftPos = img.offsetLeft;
-  img.style.left = leftPos + 6 + 'px'
+  img.style.left = leftPos + 10 + 'px'
 }
 
 function back() {
   topPos = img.offsetTop;
-  img.style.top = topPos + 6 + 'px'
+  img.style.top = topPos + 10 + 'px'
 }
 
 // Change user image for animations
