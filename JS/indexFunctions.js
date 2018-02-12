@@ -120,21 +120,21 @@ if (switchBool) {
 mobile.onclick = function() {
 	intro.style.cursor="pointer";
 	intro.onclick = function() {
-  	window.location = "intro.html";
-  }
-  proj.style.cursor="pointer";
-  proj.onclick = function() {
-  	window.location = "proj.html";
-  }
-  exp.style.cursor="pointer";
-  exp.onclick = function() {
-  window.location = "exp.html";
-  }
-  act.style.cursor="pointer";
-  act.onclick = function() {
-  window.location = "act.html";
-  }
-  mobile.textContent = "Now tap on any box for more information"
+  		window.location = "intro.html";
+  	}
+  	proj.style.cursor="pointer";
+  	proj.onclick = function() {
+  		window.location = "proj.html";
+  	}
+  	exp.style.cursor="pointer";
+  	exp.onclick = function() {
+  		window.location = "exp.html";
+  	}
+  	act.style.cursor="pointer";
+  	act.onclick = function() {
+  		window.location = "act.html";
+  	}
+  	mobile.textContent = "Now tap on any box for more information"
 }
 
 // User image movement for animation functions
