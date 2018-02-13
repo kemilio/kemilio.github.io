@@ -72,6 +72,7 @@ div.about {
   color:rgba(230, 240, 245, 1);
   font-size: 150%;
   width: 220px;
+  text-align: center;
   animation-name: fade-in;
   animation-delay: 2s;
   animation-duration: 4s;
