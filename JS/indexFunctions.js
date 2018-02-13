@@ -47,6 +47,33 @@ var projBox = new Box(projBounds.left, projBounds.right, projBounds.bottom, proj
 var expBox = new Box(expBounds.left, expBounds.right, expBounds.bottom, expBounds.top, 'exp');
 var actBox = new Box(actBounds.left, actBounds.right, actBounds.bottom, actBounds.top, 'act');
 
+// Update info box positions upon window resizing
+function resetBounds() {
+	introBounds = intro.getBoundingClientRect();
+	introBox.x1 = introBounds.left;
+	introBox.x2 = introBounds.right;
+	introBox.y1 = introBounds.bottom;
+	introBox.y2 = introBounds.top;
+	
+	projBounds = proj.getBoundingClientRect();
+	projBox.x1 = projBounds.left;
+	projBox.x2 = projBounds.right;
+	projBox.y1 = projBounds.bottom;
+	projBox.y2 = projBounds.top;
+	
+	expBounds = exp.getBoundingClientRect();
+	expBox.x1 = expBounds.left;
+	expBox.x2 = expBounds.right;
+	expBox.y1 = expBounds.bottom;
+	expBox.y2 = expBounds.top;
+	
+	actBounds = act.getBoundingClientRect();
+	actBox.x1 = actBounds.left;
+	actBox.x2 = actBounds.right;
+	actBox.y1 = actBounds.bottom;
+	actBox.y2 = actBounds.top;
+}
+
 // Initialize user character movement functionality: Move
 document.addEventListener('keydown', function(e) {
     switchBool = true;
