@@ -28,20 +28,20 @@ div.infoParaContainer {
 div.update {
   position: absolute;
   font-family: 'Josefin Sans';
-  bottom: 0;
+  top: 0;
   left: 0;
   color: rgba(35, 35, 35, 1);
-  font-size: 125%;
+  font-size: 140%;
   width: 320px;
 }
 
 div.about {
   position: absolute;
   font-family: 'Josefin Sans';
-  bottom: 0;
+  top: 0;
   right: 0;
   color: rgba(35, 35, 35, 1);
-  font-size: 125%;
+  font-size: 140%;
   width: 180px;
 }
 
