@@ -48,7 +48,7 @@ var expBox = new Box(expBounds.left, expBounds.right, expBounds.bottom, expBound
 var actBox = new Box(actBounds.left, actBounds.right, actBounds.bottom, actBounds.top, 'act');
 
 // Update info box positions upon window resizing
-function resetBounds() {
+window.onresize = function() {
 	introBounds = intro.getBoundingClientRect();
 	introBox.x1 = introBounds.left;
 	introBox.x2 = introBounds.right;
